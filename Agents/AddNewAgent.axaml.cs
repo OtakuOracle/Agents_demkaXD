@@ -147,7 +147,7 @@ public partial class AddNewAgent : MainWindow
             var dialog = new Window
             {
                 Title = "Ошибка",
-                Content = new TextBlock { Text = "Поле имя не заполнено" },
+                Content = new TextBlock { Text = "Имя не заполнено" },
                 SizeToContent = SizeToContent.WidthAndHeight,
                 WindowStartupLocation = WindowStartupLocation.CenterScreen
             };

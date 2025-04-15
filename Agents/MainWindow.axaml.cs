@@ -91,7 +91,7 @@ public partial class MainWindow : Window
         SearchBox.TextChanged += SearchBoxChanging;
     }
 
-    public void sortComboboxByType(object sender, SelectionChangedEventArgs e)
+    public void sortComboboxByType(object sender, SelectionChangedEventArgs e) // сортировка по типу
     {
         if (typeCombox.SelectedItem == null) return;
 
@@ -120,13 +120,13 @@ public partial class MainWindow : Window
         }
     }
 
-    public void sortComboxByDiscount(object sender, SelectionChangedEventArgs e)
+    public void sortComboxByDiscount(object sender, SelectionChangedEventArgs e) // сортировка по скидке
     {
         var selectedItem = discountCombox.SelectedItem;
 
         switch (selectedItem)
         {
-            case "По возрастанию":
+            case "По возраст":
                 var sortedAscending = services
                     .OrderBy(s => int.Parse(s.Discount.Replace("%", "")))
                     .ToList();
@@ -136,7 +136,7 @@ public partial class MainWindow : Window
                     services.Add(item);
                 }
                 break;
-            case "По убыванию":
+            case "По убыв":
                 var sortedDescending = services
                     .OrderByDescending(s => int.Parse(s.Discount.Replace("%", "")))
                     .ToList();
@@ -157,13 +157,13 @@ public partial class MainWindow : Window
         }
     }
 
-    public void sortComboxByTitle(object sender, SelectionChangedEventArgs e)
+    public void sortComboxByTitle(object sender, SelectionChangedEventArgs e) // сортировка по наименованию
     {
         var selectedItem = titleCombox.SelectedItem;
 
         switch (selectedItem)
         {
-            case "По возрастанию":
+            case "По возраст":
                 var sortedAscending = services
                     .OrderBy(s => s.Title)
                     .ToList();
@@ -173,7 +173,7 @@ public partial class MainWindow : Window
                     services.Add(item);
                 }
                 break;
-            case "По убыванию":
+            case "По убыв":
                 var sortedDescending = services
                     .OrderByDescending(s => s.Title)
                     .ToList();
@@ -194,13 +194,13 @@ public partial class MainWindow : Window
         }
     }
 
-    public void sortComboxByPriority(object sender, SelectionChangedEventArgs e)
+    public void sortComboxByPriority(object sender, SelectionChangedEventArgs e) // сортировка по приоритету
     {
         var selectedItem = priorityCombox.SelectedItem;
 
         switch (selectedItem)
         {
-            case "По возрастанию":
+            case "По возраст":
                 var sortedAscending = services
                     .OrderBy(s => s.Priority)
                     .ToList();
@@ -210,7 +210,7 @@ public partial class MainWindow : Window
                     services.Add(item);
                 }
                 break;
-            case "По убыванию":
+            case "По убыв":
                 var sortedDescending = services
                     .OrderByDescending(s => s.Priority)
                     .ToList();
@@ -301,7 +301,6 @@ public partial class MainWindow : Window
         else
         {
 
-            //SaleTextBlock.Foreground = Brushes.LightGreen;
             return 25;
         }
     }
@@ -310,9 +309,9 @@ public partial class MainWindow : Window
     {
         if (AgentListBox.SelectedItem is AgentListBox selectedItem)
         {
-            User7Context akapylkaContext = new User7Context();
+            User7Context user7Context = new User7Context();
 
-            var agentSelect = akapylkaContext.Agents.FirstOrDefault(e => e.Email == selectedItem.Email);
+            var agentSelect = user7Context.Agents.FirstOrDefault(e => e.Email == selectedItem.Email);
 
             AddNewAgent detailWindow = new AddNewAgent(agentSelect!);
             await detailWindow.ShowDialog(this);

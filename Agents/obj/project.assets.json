@@ -4278,11 +4278,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Agents\\Agents\\Agents.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\Agents.csproj",
       "projectName": "Agents",
-      "projectPath": "C:\\Users\\User\\Desktop\\Agents\\Agents\\Agents.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\Agents.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Agents\\Agents\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
