@@ -9,7 +9,7 @@
 
 	<Window.Resources>
 		<ItemsPanelTemplate x:Key="WrapItemsPanel">
-			<UniformGrid Columns="4" Rows="0" Margin="10"/>
+			<UniformGrid Columns="3" Rows="0" Margin="10"/>
 		</ItemsPanelTemplate>
 	</Window.Resources>
 

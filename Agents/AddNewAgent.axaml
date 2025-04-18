@@ -4,120 +4,120 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Agents.AddNewAgent"
-		xmlns:local="using:Agents"
+    xmlns:local="using:Agents"
         Title="Добавить нового агента">
 	<Grid
-		ColumnDefinitions="200,200,*"
-		Name="gridEdit">
+	  ColumnDefinitions="200,200,*"
+	  Name="gridEdit">
 		<StackPanel x:DataType="local:AddNewAgent"
-			Grid.Column="0">
+		  Grid.Column="0">
 			<TextBlock
-				Text="Наименование">
+			  Text="Наименование">
 			</TextBlock>
-			
+
 			<TextBox
-				x:Name="title">
+			  x:Name="title">
 			</TextBox>
-			
+
 			<TextBlock
-				Text="Приоритет:">
+			  Text="Приоритет:">
 
 			</TextBlock>
 			<TextBox
-				x:Name="priority">
+			  x:Name="priority">
 			</TextBox>
-			
+
 			<TextBlock
-				Text="Адресс:">
+			  Text="Адресс:">
 			</TextBlock>
 			<MaskedTextBox
-				x:Name="addres">
+			  x:Name="addres">
 			</MaskedTextBox>
 			<TextBlock
-					Text="Mail">
+				Text="Mail">
 
 			</TextBlock>
 			<TextBox
-				x:Name="mail">
+			  x:Name="mail">
 			</TextBox>
 			<TextBlock
-				Text="Номер телефона:">
+			  Text="Номер телефона:">
 
 			</TextBlock>
 			<TextBox
-				x:Name="phone">
+			  x:Name="phone">
 			</TextBox>
-			
+
 			<TextBlock
-				Text="ИНН">
+			  Text="ИНН">
 
 			</TextBlock>
 			<TextBox
-				x:Name="inn">
+			  x:Name="inn">
 			</TextBox>
-			
+
 			<TextBlock
-				Text="КПП">
+			  Text="КПП">
 
 			</TextBlock>
 			<TextBox
-				x:Name="kpp">
+			  x:Name="kpp">
 			</TextBox>
-			
+
 			<TextBlock
-				Text="Имя директора">
+			  Text="Имя директора">
 
 			</TextBlock>
 			<TextBox
-				x:Name="name">
+			  x:Name="name">
 			</TextBox>
-			
+
 			<Button
-				Background="#006400"
-				Content="Агент добавлен"
-				Click="OkButton_Click">
+			  Background="#006400"
+			  Content="Агент добавлен"
+			  Click="OkButton_Click">
 			</Button>
 			<Button
-				Background="#FF0000"
-				Content="Удалить агента"
-				Click="Exit_Click"
-				IsVisible="{Binding IsButtonVisible}">
+			  Background="#FF0000"
+			  Content="Удалить агента"
+			  Click="Exit_Click"
+			  IsVisible="{Binding IsButtonVisible}">
 			</Button>
 			<Button
-				Background="#0b88a8"
-				Content="Посмотреть агента"
-				Click="Hisory_Click">
+			  Background="#0b88a8"
+			  Content="Посмотреть агента"
+			  Click="Hisory_Click">
 			</Button>
 		</StackPanel>
 		<StackPanel
-			Margin="10,10,50,0"
-			Grid.Column="1">
+		  Margin="10,10,50,0"
+		  Grid.Column="1">
 			<TextBlock
-				Text="Тип агента:">
+			  Text="Тип агента:">
 			</TextBlock>
 
 			<ComboBox
-				x:Name="type">
+			  x:Name="type">
 				<ComboBoxItem>
 					ООО
 				</ComboBoxItem>
-				
+
 				<ComboBoxItem>
 					МФО
 				</ComboBoxItem>
-				
+
 				<ComboBoxItem>
 					МКК
 				</ComboBoxItem>
-				
+
 				<ComboBoxItem>
 					ПАО
 				</ComboBoxItem>
-				
+
 				<ComboBoxItem>
 					ОАО
 				</ComboBoxItem>
-				
+
 				<ComboBoxItem>
 					ЗАО
 				</ComboBoxItem>

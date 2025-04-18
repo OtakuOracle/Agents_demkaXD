@@ -11,31 +11,63 @@
       "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\addnewagent.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\checkhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\checkhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\addnewproduct.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\addnewproduct.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\addnewproduct.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\addnewproduct.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\checkhistory.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\checkhistory.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|c:\\users\\user\\desktop\\agents_demkaxd\\agents\\checkhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21EE01DC-BE3C-4133-98D6-CA66CEB5DA06}|Agents\\Agents.csproj|solutionrelative:agents\\checkhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\Models\\Agent.cs",
+              "RelativeDocumentMoniker": "Agents\\Models\\Agent.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\Models\\Agent.cs",
+              "RelativeToolTip": "Agents\\Models\\Agent.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:53:13.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckHistory.axaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\CheckHistory.axaml",
+              "RelativeDocumentMoniker": "Agents\\CheckHistory.axaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\CheckHistory.axaml",
+              "RelativeToolTip": "Agents\\CheckHistory.axaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-18T10:45:30.412Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,14 +76,14 @@
               "RelativeDocumentMoniker": "Agents\\AddNewAgent.axaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\AddNewAgent.axaml",
               "RelativeToolTip": "Agents\\AddNewAgent.axaml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAowGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-15T09:57:01.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "CheckHistory.axaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\CheckHistory.axaml.cs",
               "RelativeDocumentMoniker": "Agents\\CheckHistory.axaml.cs",
@@ -59,21 +91,19 @@
               "RelativeToolTip": "Agents\\CheckHistory.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T09:55:24.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T09:55:24.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AddNewProduct.axaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\AddNewProduct.axaml.cs",
               "RelativeDocumentMoniker": "Agents\\AddNewProduct.axaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\AddNewProduct.axaml.cs",
               "RelativeToolTip": "Agents\\AddNewProduct.axaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T09:55:02.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T09:55:02.096Z"
             },
             {
               "$type": "Document",
@@ -83,36 +113,33 @@
               "RelativeDocumentMoniker": "Agents\\AddNewAgent.axaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\AddNewAgent.axaml.cs",
               "RelativeToolTip": "Agents\\AddNewAgent.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T09:54:44.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T09:54:44.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\MainWindow.axaml",
               "RelativeDocumentMoniker": "Agents\\MainWindow.axaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\MainWindow.axaml",
               "RelativeToolTip": "Agents\\MainWindow.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAjwAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-15T09:51:41.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T09:51:41.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "Agents\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Agents_demkaXD\\Agents\\MainWindow.axaml.cs",
               "RelativeToolTip": "Agents\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAF8BAAAAAAAAAAAowG8BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T09:51:35.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T09:51:35.075Z"
             }
           ]
         }
